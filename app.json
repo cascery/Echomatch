@@ -4,7 +4,7 @@
     "slug": "echomatch",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/butterfly.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +18,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cascery.echomatch"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/butterfly.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "409eaeb6-a6e3-4137-9c5f-cf187acb0168"
+      }
     }
   }
 }

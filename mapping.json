@@ -1,0 +1,10 @@
+{
+    "strict": {
+      "text-font-family": {
+        "default": "YourFontName",
+        "heading": "YourFontName",
+        "body": "YourFontName"
+      }
+    }
+  }
+  
